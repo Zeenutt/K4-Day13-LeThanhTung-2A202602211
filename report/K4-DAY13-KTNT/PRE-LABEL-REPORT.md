@@ -4,7 +4,7 @@ Giữ bản đã điền ngoài Git, trong thư mục nhóm private do LC thu. �
 
 ## Nhóm và provenance
 
-- Mã nhóm/phòng: 
+- Mã nhóm/phòng: KTNT
 - Thành viên: xem `TEAMMATES.md`. 
 - Trạng thái: `executed-by-group`. 
 - Người thực sự chạy; ngày/giờ; hệ máy/architecture: một phiên thao tác trên máy, 2026-10-01 khoảng 22:09 giờ Việt Nam (UTC+7). Windows amd64, Docker Desktop 4.67.0, engine Linux amd64, Python 3.10.7.
