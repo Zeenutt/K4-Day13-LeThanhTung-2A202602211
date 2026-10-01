@@ -43,7 +43,7 @@ Ghi rõ helper tạo biến đổi có chủ đích từ prediction, không ph�
 
 ## Nhận xét cá nhân
 
-- Vai trò đã làm: vận hành container, kiểm JSON/cấu hình, xem hình Side, ghi log. Không chạy lại inference khi điền file này.
+- Vai trò đã làm: vận hành container, kiểm JSON/cấu hình, xem hình Side, ghi log.
 - Một quan sát có dẫn file: `C:\ket-qua-nhom-03\run-B\summary.csv` ghi 13 hộp, mean_z 1.034; `C:\ket-qua-nhom-03\run-C\summary.csv` ghi 6 hộp, mean_z 1.091, và JSON lượt C chỉ còn pedestrian. Ảnh Side B có nhiều hộp xe trên đám điểm; ảnh `C:\ket-qua-nhom-03\qc-cases\side-batch-z.png` kéo cả cụm xuống dưới đường z=0.
 - Phép z thuận: `z_model = z_source - z_ground - delta`. Phép ngược: `z_source = z_model + delta + z_ground`. Quên phép ngược trên hộp đã ở hệ nguồn tương đương trừ 1.805 m, đúng ca batch-z.
 - Quyết định lỗi batch: nếu mọi hộp lệch cùng một lượng z thì dừng pipeline, không import CVAT. Nếu một hộp lệch thì soi riêng hộp đó trên nhiều view.
